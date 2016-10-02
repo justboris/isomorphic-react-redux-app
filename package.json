@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/codingbox/isomorphic-react-redux-tutorial/issues"
   },
-  "homepage": "https://github.com/codingbox/isomorphic-react-redux-tutorial#readme"
+  "homepage": "https://github.com/codingbox/isomorphic-react-redux-tutorial#readme",
+  "devDependencies": {
+    "eslint": "^3.7.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
+  }
 }
