@@ -29,7 +29,7 @@ const proxy = httpProxy.createProxyServer({
 
 global.__CLIENT__ = false; // eslint-disable-line
 
-app.use('/', express.static(path.resolve(__dirname, '../../public')));
+app.use('/', express.static(path.resolve(__dirname, '../public')));
 
 app.use('/api', (req, res) => {
   proxy.web(req, res, { target: `${targetUrl}/api` });
