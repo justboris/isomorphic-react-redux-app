@@ -1,0 +1,19 @@
+{
+  "name": "isomorphic-react-redux-tutorial",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingbox/isomorphic-react-redux-tutorial.git"
+  },
+  "author": "Valerii Iatsko <dwr@codingbox.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codingbox/isomorphic-react-redux-tutorial/issues"
+  },
+  "homepage": "https://github.com/codingbox/isomorphic-react-redux-tutorial#readme"
+}
