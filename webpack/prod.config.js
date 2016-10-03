@@ -5,6 +5,11 @@ const webpack = require('webpack');
 
 const assetsPath = path.resolve(__dirname, '../public/assets');
 
+const webpackIsomorphicToolsConfig = require('./webpack-isomorphic-tools');
+const WebpackIsomorphicToolsPlugin = require('webpack-isomorphic-tools/plugin');
+
+const webpackIsomorphicToolsPlugin = new WebpackIsomorphicToolsPlugin(webpackIsomorphicToolsConfig);
+
 module.exports = {
   devtool: 'source-map',
   context: path.resolve(__dirname, '..'),
@@ -57,5 +62,6 @@ module.exports = {
         warnings: false,
       },
     }),
+    webpackIsomorphicToolsPlugin,
   ],
 };
