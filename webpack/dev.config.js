@@ -25,7 +25,7 @@ module.exports = {
   },
   output: {
     path: assetsPath,
-    filename: '[name].js',
+    filename: '[name]-[hash].js',
     chunkFilename: '[name]-[chunkhash].js',
     publicPath: `http://${webpackHost}:${webpackPort}/assets/`,
   },
