@@ -1,10 +1,13 @@
 /* eslint react/prefer-stateless-function: 0, react/forbid-prop-types: 0 */
+/* eslint global-require: 0 */
 
 import React from 'react';
 
+import styles from './App.css';
+
 export default class App extends React.Component {
   render() {
-    return <div>{this.props.children}</div>;
+    return <div className={styles.app}>{this.props.children}</div>;
   }
 }
 
