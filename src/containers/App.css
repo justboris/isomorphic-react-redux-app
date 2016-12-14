@@ -4,5 +4,6 @@ body {
 }
 
 .app {
-  font-size: 72px;
+  font-size: 40px;
+  margin: 10%;
 }
