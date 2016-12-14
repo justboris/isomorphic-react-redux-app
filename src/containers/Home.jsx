@@ -4,6 +4,6 @@ import React from 'react';
 
 export default class Home extends React.Component {
   render() {
-    return <div>Home for Boris! This is just for testing and studying purpose</div>;
+    return <div>Hey, I am switching everything to React.js. <br/>Give me a few days to clean up the messes.<br/><br/>Cheers,<br/>C Boris</div>;
   }
 }

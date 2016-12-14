@@ -39,7 +39,7 @@
     "webpack-hot-middleware": "^2.12.2"
   },
   "dependencies": {
-    "autoprefixer": "^6.5.0",
+    "autoprefixer": "^6.5.4",
     "babel-cli": "^6.16.0",
     "babel-loader": "^6.2.5",
     "babel-preset-latest": "^6.16.0",
@@ -63,6 +63,6 @@
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
-    "webpack-isomorphic-tools": "^2.5.8"
+    "webpack-isomorphic-tools": "^2.6.4"
   }
 }
