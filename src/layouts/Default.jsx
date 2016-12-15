@@ -1,20 +1,19 @@
 /* eslint react/prefer-stateless-function: 0, react/no-danger: 0, react/forbid-prop-types: 0 */
 /* eslint no-underscore-dangle: 0, global-require: 0 */
-
 import React from 'react';
 import ReactDOM from 'react-dom/server';
 import serialize from 'serialize-javascript';
 import { webpackHost, webpackPort } from '../../config/env';
-
 export default class Default extends React.Component {
   render() {
     const { assets, component, store } = this.props;
     const content = component ? ReactDOM.renderToString(component) : '';
+    const testimage = '/src/images/test-1.jpg';
 
-    return (
+return (
       <html lang="en">
         <head>
-          <title>Hello, world!</title>
+          <title>Boris Kan</title>
           {/* production */}
           {Object.keys(assets.styles).map((style, key) =>
             <link
@@ -37,19 +36,15 @@ export default class Default extends React.Component {
             charSet="UTF-8"
           />
           <script
-            src={
-              process.env.NODE_ENV === 'development' ?
-              `http://${webpackHost}:${webpackPort}/assets/main.js` :
-              '/assets/main.js'
-            }
+            src={ assets.javascript.main }
             charSet="UTF-8"
-          />
+         />
+         <img src={testimage}/>
         </body>
       </html>
     );
   }
 }
-
 Default.propTypes = {
   assets: React.PropTypes.object,
   component: React.PropTypes.node,
