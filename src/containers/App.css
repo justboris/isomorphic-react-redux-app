@@ -4,6 +4,7 @@ body {
 }
 
 .app {
+  font-family: 'Abril Fatface', arial, san-serif;
   font-size: 40px;
   margin: 10%;
 }

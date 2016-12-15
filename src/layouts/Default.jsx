@@ -8,12 +8,12 @@ export default class Default extends React.Component {
   render() {
     const { assets, component, store } = this.props;
     const content = component ? ReactDOM.renderToString(component) : '';
-    const testimage = '/src/images/test-1.jpg';
 
 return (
       <html lang="en">
         <head>
           <title>Boris Kan</title>
+          <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet"/>
           {/* production */}
           {Object.keys(assets.styles).map((style, key) =>
             <link
@@ -39,7 +39,6 @@ return (
             src={ assets.javascript.main }
             charSet="UTF-8"
          />
-         <img src={testimage}/>
         </body>
       </html>
     );
