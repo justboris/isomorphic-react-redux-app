@@ -1,10 +1,23 @@
 /* eslint react/prefer-stateless-function: 0 */
 
 import React from 'react';
+import Header from './layout/Header';
+import Contact from './layout/Contact';
+import Resume from './layout/Resume';
 
-export default class Home extends React.Component {
+class Home extends React.Component {
 
   render() {
-    return <div>Hey, I am switching everything to React.js. <br/>Give me a few days to clean up the messes.<br/><br/>Cheers,<br/> Boris<br/><a href="https://drive.google.com/open?id=0BxN4QDx31hFTLUpBOTNaSjBvS2s">What I have done</a> | <a href="mailto:boriskan@gmail.com">How to find me</a></div>;
+    return <div>
+              <Header />
+              I am switching everything to React.js. 
+              <br/>Give me a few days to clean up the messes.<br/>
+              <Resume />
+              <br/><br/>Cheers,
+              <br/> Boris<br/>
+              <Contact />
+            </div>
   }
 }
+
+export default Home;

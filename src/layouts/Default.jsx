@@ -13,7 +13,7 @@ return (
       <html lang="en">
         <head>
           <title>Boris Kan</title>
-          <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet"/>
+          <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" />
           {/* production */}
           {Object.keys(assets.styles).map((style, key) =>
             <link
@@ -31,14 +31,7 @@ return (
         </head>
         <body>
           <div id="root" dangerouslySetInnerHTML={{ __html: content }} />
-          <script
-            dangerouslySetInnerHTML={{ __html: `window.__data=${serialize(store.getState())};` }}
-            charSet="UTF-8"
-          />
-          <script
-            src={ assets.javascript.main }
-            charSet="UTF-8"
-         />
+
         </body>
       </html>
     );

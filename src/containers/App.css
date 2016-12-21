@@ -4,7 +4,24 @@ body {
 }
 
 .app {
-  font-family: 'Abril Fatface', arial, san-serif;
-  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
   margin: 10%;
+}
+
+small{
+  font-size: .6em;
+  margin-left: 10px;
+}
+
+strong{
+  font-weight: 500;
+}
+
+a{
+  color: #007a3b;
+}
+
+a:hover{
+  color: #009649;
 }
