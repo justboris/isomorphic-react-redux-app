@@ -13,7 +13,7 @@ class Home extends React.Component {
               I am switching everything to React.js. 
               <br/>Give me a few days to clean up the mess.<br/>
               <Resume />
-              <br/><br/>Cheers,
+              <br/>Cheers,
               <br/> Boris<br/>
               <Contact />
             </div>
