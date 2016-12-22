@@ -4,6 +4,7 @@ import React from 'react';
 import Header from './layout/Header';
 import Contact from './layout/Contact';
 import Resume from './layout/Resume';
+import Portfolio from './layout/Portfolio';
 
 class Home extends React.Component {
 
@@ -15,6 +16,7 @@ class Home extends React.Component {
               <Resume />
               <br/>Cheers,
               <br/> Boris<br/>
+              <Portfolio />
               <Contact />
             </div>
   }
