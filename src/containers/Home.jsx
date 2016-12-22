@@ -11,7 +11,7 @@ class Home extends React.Component {
     return <div>
               <Header />
               I am switching everything to React.js. 
-              <br/>Give me a few days to clean up the messes.<br/>
+              <br/>Give me a few days to clean up the mess.<br/>
               <Resume />
               <br/><br/>Cheers,
               <br/> Boris<br/>
