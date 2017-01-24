@@ -9,11 +9,13 @@ export default class Default extends React.Component {
     const { assets, component, store } = this.props;
     const content = component ? ReactDOM.renderToString(component) : '';
 
+
 return (
       <html lang="en">
         <head>
           <title>Boris Kan</title>
-          <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700,900" rel="stylesheet" />
+          <link rel="icon" type="image/png" href="https://photos.google.com/search/_tra_/photo/AF1QipP2cGF-L2DxNPvkYDMlLZqOIUWDWk0981Lud35t" />
           {/* production */}
           {Object.keys(assets.styles).map((style, key) =>
             <link

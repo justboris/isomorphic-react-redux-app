@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  margin: 10%;
+}
+.portfolioPiece/app{
+  width: 90%;
+  display: block;
+  margin: 12% auto;
+  border: 3px solid orange;
+
+}
+
+
+.resume{
+  color: green;
+
+}
+
+small{
+  font-size: .6em;
+  margin-left: 10px;
+}
+
+strong{
+  font-weight: 500;
+}
+
+a{
+  color: #007a3b;
+}
+
+a:hover{
+  color: #009649;
+}

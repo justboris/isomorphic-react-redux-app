@@ -6,10 +6,14 @@ import Contact from './layout/Contact';
 import Resume from './layout/Resume';
 import Portfolio from './layout/Portfolio';
 
+import styles from './App.css';
+import portfolio from './styles/Portfolio.css';
+
+
 class Home extends React.Component {
 
   render() {
-    return <div>
+    return <div className={styles.app}>
               <Header />
               I am switching everything to React.js. 
               <br/>Give me a few days to clean up the mess.<br/>

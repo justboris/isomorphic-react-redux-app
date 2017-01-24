@@ -1,0 +1,14 @@
+.portfolioImage{
+  width: 90%;
+  display: block;
+  margin: 12% auto;
+  border: 3px solid orange;
+
+}
+.portfolio img{
+  display: block;
+  width: 100%;
+}
+.resume{
+  color: green;
+}

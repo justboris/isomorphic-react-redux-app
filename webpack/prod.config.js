@@ -43,6 +43,14 @@ module.exports = {
                 ),
       },
       {
+        test: /\.less$/,
+        loader: "style!css!less"
+      },
+      {
+          test: /\.scss$/,
+          loaders: ExtractTextPlugin.extract('css!sass')
+      },
+      {
         test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
         loader: 'url?limit=10000&mimetype=application/font-woff',
       },
@@ -80,7 +88,9 @@ module.exports = {
     extensions: ['', '.json', '.js', '.jsx'],
   },
   plugins: [
-    new ExtractTextPlugin('[name]-[chunkhash].css', { allChunks: true }),
+    new ExtractTextPlugin('public/style.css', {
+            allChunks: true
+        })
 
     new webpack.DefinePlugin({
       'process.env': {

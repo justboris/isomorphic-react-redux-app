@@ -26,15 +26,19 @@
   },
   "homepage": "https://github.com/codingbox/isomorphic-react-redux-tutorial#readme",
   "devDependencies": {
+    "css-loader": "^0.25.0",
     "eslint": "^3.7.0",
     "eslint-config-airbnb": "^12.0.0",
     "eslint-plugin-import": "^1.16.0",
     "eslint-plugin-jsx-a11y": "^2.2.2",
     "eslint-plugin-react": "^6.3.0",
+    "less-loader": "^2.2.3",
     "nodemon": "^1.11.0",
     "redux-devtools": "^3.3.1",
     "redux-devtools-dock-monitor": "^1.1.1",
     "redux-devtools-log-monitor": "^1.0.11",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
     "webpack-dev-middleware": "^1.8.3",
     "webpack-hot-middleware": "^2.12.2"
   },
@@ -55,6 +59,7 @@
     "pretty-error": "^2.0.1",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
+    "react-favicon": "0.0.5",
     "react-redux": "^4.4.5",
     "react-router": "^2.8.1",
     "react-router-redux": "^4.0.6",
@@ -63,6 +68,6 @@
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2",
-    "webpack-isomorphic-tools": "^2.6.4"
+    "webpack-isomorphic-tools": "^2.6.5"
   }
 }

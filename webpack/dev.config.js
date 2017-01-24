@@ -41,6 +41,14 @@ module.exports = {
         loader: 'style!css?modules&importLoaders=2&sourceMap&localIdentName=[local]___[hash:base64:5]!postcss',
       },
       {
+        test: /\.less$/,
+        loader: "style!css!less"
+      },
+      {
+          test: /\.scss$/,
+          loaders: ['style', 'css', 'sass']
+      },
+      {
         test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
         loader: 'url?limit=10000&mimetype=application/font-woff',
       },
@@ -78,7 +86,6 @@ module.exports = {
     extensions: ['', '.json', '.js', '.jsx'],
   },
   plugins: [
-    // hot reload
     new webpack.HotModuleReplacementPlugin(),
     new webpack.IgnorePlugin(/webpack-stats\.json$/),
     new webpack.DefinePlugin({
