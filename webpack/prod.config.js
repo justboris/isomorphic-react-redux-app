@@ -88,9 +88,7 @@ module.exports = {
     extensions: ['', '.json', '.js', '.jsx'],
   },
   plugins: [
-    new ExtractTextPlugin('public/style.css', {
-            allChunks: true
-        })
+    new ExtractTextPlugin('[name]-[chunkhash].css', { allChunks: true }),
 
     new webpack.DefinePlugin({
       'process.env': {
