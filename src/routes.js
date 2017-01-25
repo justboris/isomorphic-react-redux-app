@@ -6,6 +6,7 @@ import { IndexRoute, Route } from 'react-router';
 import {
   App,
   Home,
+  About,
   NotFound,
 } from './containers';
 
@@ -14,6 +15,8 @@ export default (store) => { // eslint-disable-line
     <Route path="/" component={App}>
       { /* Home (main) route */ }
       <IndexRoute component={Home} />
+
+    <Route path="/about" component={About} />
 
       { /* Catch all route */ }
       <Route path="*" component={NotFound} status={404} />

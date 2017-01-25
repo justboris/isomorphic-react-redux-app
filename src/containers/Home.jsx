@@ -15,7 +15,7 @@ class Home extends React.Component {
   render() {
     return <div className={styles.app}>
               <Header />
-              I am switching everything to React.js. 
+              I am learning React.js as I am rebuilding my personal site.
               <br/>Give me a few days to clean up the mess.<br/>
               <Resume />
               <br/>Cheers,
