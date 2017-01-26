@@ -17,15 +17,15 @@ function Blog(props) {
   );
   const content = props.posts.map((post) =>
     <div style={portfolioItem} key={post.id}>
-      <div class="portfolioTitle" style={portfolioTitle} >
+      <div className={portfolio.portfolioTitle} >
         <h3>{post.title}</h3>
         <span >{post.subtitle}</span>
         <p>{post.tool}</p>
       </div>
-      <div class="portfolioDesc" style={portfolioDesc}>
+      <div className={portfolio.portfolioDesc}>
         <p>{post.content}</p>
       </div>
-      <div className="pfStyle" style={portfolioStyle}>
+      <div className={portfolio.pfStyle} >
         <img style={portfolioImage} src={post.portfolio} />
         <img style={portfolioImage} src={post.portfolio2} />
         <img style={portfolioImage} src={post.portfolio3} />
