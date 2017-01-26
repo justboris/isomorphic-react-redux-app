@@ -12,6 +12,10 @@
 .resume{
   color: green;
 }
+.pfStyle{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /*---- Portfolio Related ----*/
   .pfStyle img{
@@ -32,7 +36,7 @@
 }
 
 .portfolioTitle{
-    width: 30;    
+    width: 30%;    
     display: inline-block;
     border-right: 1px solid orange;
     padding-right: 1%;
@@ -46,7 +50,7 @@
 }
 
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+@media only screen (max-width : 880px){
   .app{
     width: 90%;
   }
