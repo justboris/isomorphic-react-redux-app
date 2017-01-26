@@ -63,11 +63,12 @@ const portfolioDesc = {
     'verticalAlign': 'bottom'
 };
 const portfolioStyle = {
-    'display': 'flex'
+    'display': 'flex',
+    'flex-wrap': 'wrap'
 };
 
 const portfolioImage = {
-    'width': '30%',
+    'width': '300px',
     'height': '100%',
     'display': 'block',
     'border': '1px solid #e3e3e3',

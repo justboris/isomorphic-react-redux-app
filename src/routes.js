@@ -7,6 +7,7 @@ import {
   App,
   Home,
   About,
+  Testing,
   NotFound,
 } from './containers';
 
@@ -17,6 +18,7 @@ export default (store) => { // eslint-disable-line
       <IndexRoute component={Home} />
 
     <Route path="/about" component={About} />
+   <Route path="/testing" component={Testing} />
 
       { /* Catch all route */ }
       <Route path="*" component={NotFound} status={404} />
