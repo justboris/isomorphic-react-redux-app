@@ -1,13 +1,25 @@
-.about{
-	background: orange;
+.flex-notwork{
+	display: flex;
 }
-.about p{
-	font-size: 20px;
-}
-.notWork/.about{
-	background: blue;
+.flex-item{
+	flex: 1 1;
 }
 
-.notWork{
-	background: yellow;
+.about{
+	font-family: 'Playfair Display', serif;
+ 	font-size: 30px;
+ 	margin: 10% auto;
+}
+
+@media only screen  and (min-width : 1224px) {
+	.about{
+		width: 80%;
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+  .about{
+  	width: 92%;
+  }
+
 }

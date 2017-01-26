@@ -2,35 +2,33 @@ import React, { Component } from 'react';
 
 import portfolio from '../styles/Portfolio.css';
 
-
+import Button from 'react-bootstrap/lib/Button';
 
 function Poster(props) {
 
   const content = props.posts.map((post) =>
     <div style={portfolioItem} key={post.id}>
-      <div style={portfolioTitle} >
-        <h3>{post.subtitle}</h3>
-        <p>{post.tool}</p>
-      </div>
-      <div style={portfolioStyle}>
         <img style={portfolioImage} src={post.poster} />
-      </div>
-
     </div>
   );
   return (
-    <div>
+    <div style={portfolioFlex} className="flex-notwork">
       {content}
     </div>
   );
 }
 
 const portfolioItem = {
-    'position': 'relative',
-    'padding': '25px',
-    'opacity': '.9',
-    'margin': '20px 0',
-    'backgroundColor': 'white'
+    'display': 'block',
+    'border': '1px solid #e3e3e3',
+    'flex': '1 1 auto',
+    'width': '300px',
+    'margin': '10px'
+};
+
+const portfolioFlex = {
+    'display': 'flex',
+    'flex-wrap': 'wrap'
 };
 
 const portfolioTitle = {
@@ -52,12 +50,8 @@ const portfolioStyle = {
 };
 
 const portfolioImage = {
-    'width': '30%',
-    'height': '100%',
     'display': 'block',
-    'border': '1px solid #e3e3e3',
-    'margin': '2% .5% 0', 
-    'flex': '1 1 auto'
+    'width': '100%'
 };
 
 
