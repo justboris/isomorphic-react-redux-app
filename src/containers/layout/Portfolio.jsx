@@ -17,12 +17,12 @@ function Blog(props) {
   );
   const content = props.posts.map((post) =>
     <div style={portfolioItem} key={post.id}>
-      <div style={portfolioTitle} >
+      <div class="portfolioTitle" style={portfolioTitle} >
         <h3>{post.title}</h3>
         <span >{post.subtitle}</span>
         <p>{post.tool}</p>
       </div>
-      <div style={portfolioDesc}>
+      <div class="portfolioDesc" style={portfolioDesc}>
         <p>{post.content}</p>
       </div>
       <div className="pfStyle" style={portfolioStyle}>
@@ -68,12 +68,6 @@ const portfolioStyle = {
 };
 
 const portfolioImage = {
-    'width': '300px',
-    'height': '100%',
-    'display': 'block',
-    'border': '1px solid #e3e3e3',
-    'margin': '2% .5% 0', 
-    'flex': '1 1 auto'
 };
 
 

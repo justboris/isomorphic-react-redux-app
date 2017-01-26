@@ -28,7 +28,7 @@ const portfolioItem = {
 
 const portfolioFlex = {
     'display': 'flex',
-    'flex-wrap': 'wrap'
+    'flexWrap': 'wrap'
 };
 
 const portfolioTitle = {
