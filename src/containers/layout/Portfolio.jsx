@@ -25,7 +25,7 @@ function Blog(props) {
       <div style={portfolioDesc}>
         <p>{post.content}</p>
       </div>
-      <div style={portfolioStyle}>
+      <div className="pfStyle" style={portfolioStyle}>
         <img style={portfolioImage} src={post.portfolio} />
         <img style={portfolioImage} src={post.portfolio2} />
         <img style={portfolioImage} src={post.portfolio3} />
@@ -64,7 +64,7 @@ const portfolioDesc = {
 };
 const portfolioStyle = {
     'display': 'flex',
-    'flex-wrap': 'wrap'
+    'flexWrap': 'wrap'
 };
 
 const portfolioImage = {

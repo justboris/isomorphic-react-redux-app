@@ -13,9 +13,9 @@ import portfolio from './styles/Portfolio.css';
 class Home extends React.Component {
 
   render() {
-    return <div className={styles.app} row>
+    return <div className={styles.app}>
               <Header />
-              <div className="col-md-3">
+              <div>
               I am learning React.js as I am rebuilding my personal site.
               <br/>Give me a few days to clean up the mess.<br/>
               </div>
