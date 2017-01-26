@@ -1,0 +1,13 @@
+.about{
+	background: orange;
+}
+.about p{
+	font-size: 20px;
+}
+.notWork/.about{
+	background: blue;
+}
+
+.notWork{
+	background: yellow;
+}
