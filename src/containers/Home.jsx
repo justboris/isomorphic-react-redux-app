@@ -15,13 +15,13 @@ class Home extends React.Component {
   render() {
     return <div className={styles.app}>
               <Header />
-              <div>
-              I am learning React.js as I am rebuilding my personal site.
+              <h3>
+               I am learning React.js as I am rebuilding my personal site.
               <br/>Give me a few days to clean up the mess.<br/>
-              </div>
+              </h3>
               <Resume />
-              <br/>Cheers,
-              <br/> Boris<br/>
+              <p>Cheers,
+              <br/> Boris</p>
               <Portfolio />
               <Contact />
             </div>
