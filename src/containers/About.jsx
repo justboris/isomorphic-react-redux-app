@@ -12,7 +12,7 @@ class About extends React.Component {
   render() {
     return <div className={styles.about}>
               <Header />
-              This is the about page.<br/>
+              <p>"The future of front-end development is design" - that is something i wholeheartly agree since I look at front end development as a tool to further express the thought and tone of an idea. Front end development, in my humble opnin</p><br/>
               <br/>Cheers,
               <br/> Boris<br/>
               <div className={styles.notWork}>

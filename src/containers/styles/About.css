@@ -11,9 +11,10 @@ body {
 }
 
 .about{
-    font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
  	font-size: 30px;
  	margin: 10% auto;
+  width: 80%;
 }
 
 @media only screen  and (min-width : 1224px) {
