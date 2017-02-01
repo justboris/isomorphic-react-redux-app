@@ -96,7 +96,7 @@ h3, h4{
   margin: 0;
 }
 
-@media only screen and (min-width : 320px) and (max-width : 412px){
+@media only screen and (min-device-width : 320px) and (max-device-width : 412px){
   h1{
     font-size: 5rem;
     color: white;
